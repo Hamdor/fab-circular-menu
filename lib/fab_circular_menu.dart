@@ -238,7 +238,7 @@ class FabCircularMenuState extends State<FabCircularMenu>
 
   void _calculateProps() {
     _ringColor = widget.ringColor ?? Theme.of(context).colorScheme.secondary;
-    _fabColor = widget.fabColor ?? Theme.of(context).colorScheme.primaryColor;
+    _fabColor = widget.fabColor ?? Theme.of(context).colorScheme.primary;
     _fabOpenColor = widget.fabOpenColor ?? _fabColor;
     _fabCloseColor = widget.fabCloseColor ?? _fabColor;
     _fabIconBorder = widget.fabIconBorder ?? CircleBorder();
